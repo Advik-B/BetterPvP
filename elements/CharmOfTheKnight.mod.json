@@ -1,0 +1,43 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "charmoftheknight",
+    "customModelName": "Normal",
+    "name": "Charm Of The Knight",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 3,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 10.0,
+    "damageCount": 1,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 3,
+    "onRightClickedInAir": {
+      "name": "CharmOfTheKnightRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "CharmOfTheKnightRightClickedInAir"
+    },
+    "onDroppedByPlayer": {
+      "name": "CharmOfTheKnightItemIsDroppedByPlayer"
+    },
+    "hasDispenseBehavior": true
+  }
+}
