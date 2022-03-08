@@ -5,7 +5,7 @@
       "type": "item",
       "sortid": 1,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "charm_of_the_knight"
     },
     {
@@ -63,12 +63,29 @@
           }
         ]
       }
+    },
+    {
+      "name": "BetterPvP",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_pv_p"
+    },
+    {
+      "name": "CharmOfTheKnightRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charm_of_the_knight_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "itemGroup.tabbetter_pv_p": "Better PvP",
       "item.betterpvp.charm_of_the_knight": "Charm Of The Knight"
     }
   },

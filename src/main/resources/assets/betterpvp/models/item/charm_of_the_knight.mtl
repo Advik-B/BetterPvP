@@ -1,0 +1,6 @@
+# Made in Blockbench 4.1.5
+newmtl m_0
+map_Kd core 
+newmtl m_1
+map_Kd coal.png 
+newmtl none

@@ -8,7 +8,7 @@
     "name": "Charm Of The Knight",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:BetterPvP"
     },
     "stackSize": 3,
     "enchantability": 0,

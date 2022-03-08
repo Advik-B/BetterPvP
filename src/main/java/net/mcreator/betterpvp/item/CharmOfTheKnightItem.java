@@ -12,7 +12,6 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -27,6 +26,7 @@ import net.minecraft.core.BlockSource;
 
 import net.mcreator.betterpvp.procedures.CharmOfTheKnightRightClickedInAirProcedure;
 import net.mcreator.betterpvp.procedures.CharmOfTheKnightItemIsDroppedByPlayerProcedure;
+import net.mcreator.betterpvp.init.BetterpvpModTabs;
 import net.mcreator.betterpvp.init.BetterpvpModItems;
 
 import com.google.common.collect.Multimap;
@@ -35,7 +35,7 @@ import com.google.common.collect.ImmutableMultimap;
 @Mod.EventBusSubscriber
 public class CharmOfTheKnightItem extends Item {
 	public CharmOfTheKnightItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(1).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(BetterpvpModTabs.TAB_BETTER_PV_P).durability(1).fireResistant().rarity(Rarity.COMMON));
 		setRegistryName("charm_of_the_knight");
 	}
 
